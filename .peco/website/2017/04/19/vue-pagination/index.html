@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-peco="lang">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui" />
+    
+    <title data-peco="true"></title>
+    
+    
+    
+    
+    <link rel="preload" href="/_peco/assets/js/main.6380c2.js" as="script"><link rel="prefetch" href="/_peco/assets/js/page-2017-01-29-git.14f1f6.js"><link rel="prefetch" href="/_peco/assets/js/page-2017-04-19-vue-pagination.f7e2f4.js"><link rel="prefetch" href="/_peco/assets/js/page-2017-11-28-old-time.c1bc85.js"><link rel="prefetch" href="/_peco/assets/js/page-2017-12-06-aoba-resume.07af16.js"><link rel="prefetch" href="/_peco/assets/js/page-2018-01-29-create-react-component-like-a-pro.5a141f.js"><link rel="prefetch" href="/_peco/assets/js/page-2018-08-13-internet-novel.dc3b30.js"><link rel="prefetch" href="/_peco/assets/js/page-about.ba50e8.js"><link rel="prefetch" href="/_peco/assets/js/page-admire.de63d3.js"><link rel="prefetch" href="/_peco/assets/js/page-code.ec4dde.js"><link rel="prefetch" href="/_peco/assets/js/page-comment.d0dd02.js"><link rel="prefetch" href="/_peco/assets/js/page-friends.90f23a.js"><link rel="prefetch" href="/_peco/assets/js/page-index.61a387.js"><link rel="prefetch" href="/_peco/assets/js/page-tags-code.10bdbb.js"><link rel="prefetch" href="/_peco/assets/js/page-tags-life.2c56e4.js"><link rel="prefetch" href="/_peco/assets/js/page-timeline.adf4eb.js"><link rel="prefetch" href="/_peco/assets/js/page-youth.7e6080.js">
+    <link rel="stylesheet" href="/_peco/assets/css/styles.6380c2.css">
+  </head>
+  <body data-peco="">
+    <div id="__peco" data-server-rendered="true"><div id="app"><div class="index-wrap"><canvas id="evanyou"></canvas> <div class="nav-wrap headroom"><nav><div class="tab-wrap"><a href="/" class="tab tab-item router-link-active"><div class="a"><svg aria-hidden="true" class="icon"><use xlink:href="#icon-folder"></use></svg> <span>Mine</span></div></a> <a href="/timeline" class="tab tab-item"><div class="a"><svg aria-hidden="true" class="icon"><use xlink:href="#icon-pencil"></use></svg> <span>时间轴</span></div></a> <div class="tab tab-item"><div class="a"><svg aria-hidden="true" class="icon"><use xlink:href="#icon-notebook"></use></svg> <span>文字</span></div> <div class="tab-1" style="display:none;"><a href="/tags/life" class="li-1 tab-item"><div class="a">青春如梦</div></a> <a href="/tags/code" class="li-1 tab-item"><div class="a">举个栗子</div></a></div></div> <div class="tab tab-item"><div class="a"><svg aria-hidden="true" class="icon"><use xlink:href="#icon-computer"></use></svg> <span>code</span></div> <ul class="tab-1" style="display:none;"><li class="li-1"><a href="https://luyilin.github.io/Aoba" target="_blank">Aoba</a></li> <li class="li-1"><a href="https://luyilin.github.io/foldcontent-zhihu/src/demo.html" target="_blank">foldcontent-zhihu</a></li> <li class="li-1"><a href="https://luyilin.github.io/vue-pagination-minemine/dist/index.html" target="_blank">vue-pagination</a></li> <li class="li-1"><a href="https://luyilin.github.io/vue-google-form/dist/index" target="_blank">vue-google-form</a></li> <li class="li-1"><a href="https://luyilin.github.io/Maltose/demo/" target="_blank">Maltose</a></li> <li class="li-1"><a href="https://github.com/luyilin/awesome-web" target="_blank">awesome web</a></li></ul></div> <a href="/friends" class="tab tab-item"><div class="a"><svg aria-hidden="true" class="icon"><use xlink:href="#icon-doughnut"></use></svg> <span>友人账</span></div></a> <a href="/comment" class="tab tab-item"><div class="a"><svg aria-hidden="true" class="icon"><use xlink:href="#icon-chat"></use></svg> <span>留言板</span></div></a> <a href="/admire" class="tab tab-item"><div class="a"><svg aria-hidden="true" class="icon"><use xlink:href="#icon-beer"></use></svg> <span>赞赏</span></div></a> <a href="/about" class="tab tab-item"><div class="a"><svg aria-hidden="true" class="icon"><use xlink:href="#icon-girl"></use></svg> <span>关于我</span></div></a></div></nav></div> <header><h1 class="main-title pointer"></h1> <div class="intro animated bounceInUp"><img src="https://wx2.sinaimg.cn/mw690/a2117cdbly1fnu37j8tfkj20cs0cst91.jpg" class="avatar animated"> <h2>Write something for my love.</h2></div></header> <div class="content-wrap"><div class="essay-wrap" style="width:70%;"><div class="essay-item"><div class="markdown-content"><h1><a href="/2017/04/19/vue-pagination" class="essay-title router-link-exact-active router-link-active">
+      使用 vue2.0 实现一个简洁的分页组件
+    </a></h1> <p class="meta"><i class="iconfont iconfont-essay icon-icon01"></i>
+    写于2017年04月19日
+  </p> <!----> <div class="markdown-section"><p>分页效果预览：</p>
+<ul>
+<li><a href="https://luyilin.github.io/Minemine-pagination/dist/index.html">在线 demo</a></li>
+<li><a href="https://github.com/luyilin/Minemine-pagination">github 地址</a></li>
+<li>分页效果截图<img src="https://ooo.0o0.ooo/2017/04/19/58f7246807888.png" alt="messagedboard"></li>
+</ul>
+<h3 id="">前言</h3>
+<blockquote>
+<ol>
+<li>使用 vue-cli 初始化项目 <!--more--></li>
+<li>使用 vuex 管理数据</li>
+<li>node v6.9.2，npm v3.10.9</li>
+</ol>
+</blockquote>
+<h3 id="-2">分页原理</h3>
+<p>实现分页主要依靠两个参数，偏移量（offset）、限制数（limit）。点击分页发送 Ajax 请求，将这两个参数传给后端，后端从数据库筛选出对应的数据返回给前端，前端将获取到的数据添加到页面中，分页组件根据偏移量和限制数显示对应的页码，这是一个简单地实现分页的思路。</p>
+<h3 id="-3">分页类型</h3>
+<p>分页一般分为两种类型，一种经常用于移动端的滚动加载，或是一个按钮点击即可加载更多。这种分页实现起来比较简单，前端仅需定义一个 offset 变量，每次 ajax 请求时 offset += limit，然后将获取到的内容 append 上去即可。
+另一种是显示总页数、当前页数、上一页、下一页按钮，且页数较多时将中间页数用省略号表示。这种分页实现起来稍微复杂一点，但用户体验更好，本文讨论的就是如何使用 vue 实现这样的分页组件。</p>
+<h3 id="-4">分页组件</h3>
+<p>创建 pagination.vue 文件。</p>
+<div class="pre-wrapper" v-pre="" data-lang=""><pre class=""><code class=""><template>
+    <div class="page-wrap">
+      <ul v-show="prePage" class="li-page" v-tap="{methods: goPrePage}">上一页</ul>
+      <ul>
+        <li v-for="i in showPageBtn" :class="{active: i === currentPage, pointer: i, hover: i && i !== currentPage}"
+            v-tap="{methods: goPage, i: i}">
+          <a v-if="i" class="notPointer">{{i}}</a>
+          <a v-else>···</a>
+        </li>
+      </ul>
+      <ul v-show="nextPage" class="li-page" v-tap="{methods: goNextPage}">下一页</ul>
+    </div>
+</template></code></pre></div><p>组件的作用域是独立的，父组件通信通过 props 向其传递数据，分页组件通过 $emit 触发在父组件定义的事件实现和父组件的通信，因此预设从父组件获取到需显示的总数 num 为 30 , limit 为 5，当然你也可以随意设置这两个值～</p>
+<pre><code>```
+let that
+export default{
+    data(){
+      that = this
+      return{
+        num: 30,
+        limit: 5
+      }
+    }
+}
+```
+</code></pre>
+<p>计算几个变量，在这里可以使用 vue 的计算属性 computed
+总页数 totalPage 应该等于需显示的总数除以每页显示的个数，并向上取整，这个很好理解。</p>
+<div class="pre-wrapper" v-pre="" data-lang=""><pre class=""><code class="">computed: {
+      totalPage() {
+        return Math.ceil(that.num / that.limit)
+      }
+    }</code></pre></div><p>偏移量 offset，因为点击上下页、制定页码均会改变 offset 变量，父组件也需要用到这个变量发送 ajax 请求，因此使用 vuex 存储 offset。</p>
+<div class="pre-wrapper" v-pre="" data-lang=""><pre class=""><code class="">// pagination.vue
+    computed: {
+      offset() {
+          return that.$store.state.offset
+      }
+    }</code></pre></div><p>当前页面 currentPage，当前页面是比较重要的一个变量，显示用户当前所处页数，已知偏移量和每页显示数量可以得出当前页面是二者的余数向上取整，因为页数不从0开始，因此</p>
+<div class="pre-wrapper" v-pre="" data-lang=""><pre class=""><code class="">computed: {
+      currentPage() {
+        return Math.ceil(that.offset / that.limit) + 1
+      }
+    }</code></pre></div><p>是否显示上一页按钮 prePage，因为在首页的时候偏移量为0，因此只要偏移量不等于0则当前页面肯定不在第一页，则显示上一页按钮，并且 num 不等于 0。</p>
+<div class="pre-wrapper" v-pre="" data-lang=""><pre class=""><code class="">coumputed: {
+      prePage() {
+        return that.offset !== 0 && that.num
+      }
+    }</code></pre></div><p>是否显示下一页按钮 nextPage，这个也很好理解，只要偏移量和每页显示的个数相加小于需显示的总数，则显示下一页按钮，并且 num 不等于 0。</p>
+<div class="pre-wrapper" v-pre="" data-lang=""><pre class=""><code class="">computed: {
+      nextPage() {
+        return (that.offset + that.limit < that.num) && that.num
+      }
+    }</code></pre></div><p>页码计算 showPageBtn，页码计算是这个分页组件的核心内容，基本思路是当总页数不大于5时，显示全部页码；当总页数大于5时，始终显示首尾页码，当当前页码距首页小于2时，显示前三页页码和省略号；当当前页码距尾页小于2时，显示后三页页码，当当前页码距首页等于2时，显示前四页页码和省略号；当当前页码距尾页等于2时，显示后四页页码和省略号；当当前页码距首页大于3且距尾页大于3时，显示当前页码和当前页码的前一页和后一页，两边各有一个省略号；在这里我们使用0代表省略号</p>
+<div class="pre-wrapper" v-pre="" data-lang=""><pre class=""><code class="">computed: {
+      showPageBtn() {
+          let pageNum = that.totalPage,
+              index = that.currentPage,
+              arr = []
+          if (pageNum <= 5) {
+            for(let i = 1; i <= pageNum; i++) {
+              arr.push(i)
+            }
+            return arr
+          }
+          if (index <= 2) return [1,2,3,0,pageNum]
+          if (index >= pageNum -1) return [1,0, pageNum -2, pageNum -1, pageNum]
+          if (index === 3) return [1,2,3,4,0,pageNum]
+          if (index === pageNum -2) return [1,0, pageNum-3, pageNum-2, pageNum-1, pageNum]
+          return [1,0, index-1, index, index + 1, 0, pageNum]
+        }
+    }</code></pre></div><p>跳转事件，分别点击上一页、下一页和指定页码。</p>
+<div class="pre-wrapper" v-pre="" data-lang=""><pre class=""><code class="">methods: {
+      goPage(params) {
+        if (params.i === 0 || params.i === that.currentPage) return
+        that.$store.commit('GO_PAGE', (params.i-1) * that.limit)
+        that.$emit('getNew')
+      },
+      goPrePage() {
+        that.$store.commit('PRE_PAGE', that.limit)
+        that.$emit('getNew')
+      },
+      goNextPage() {
+        that.$store.commit('NEXT_PAGE', that.limit)
+        that.$emit('getNew')
+      }
+    }</code></pre></div><h3 id="vuex">vuex 部分</h3>
+<p>在此介绍一下 vuex 部分的实现，学习了二哲大大的 vuex 部分的结构。在 src 目录下（和 components 目录平级），新建 store 目录，其中 index.js 文件传入 mutation，初始化 vuex；</p>
+<div class="pre-wrapper" v-pre="" data-lang=""><pre class=""><code class="">// vuex store/index.js
+  import Vue from 'vue'
+  import Vuex from 'vuex'
+  import mutations from './mutations'
+
+<p>  Vue.use(Vuex);</p>
+<p>  const state = {
+    offset: 0
+  };</p>
+<p>  export default new Vuex.Store({
+    state,
+    mutations
+  })</code></pre></div><p>mutation-types.js 记录所有的事件名，其实这个文件最大的好处是能让我们更直观地管理所有的 vuex 方法，它的优点会在项目复杂后凸显出来，项目复杂时我们可能会使用 vuex 存储很多数据、定义很多方法，这时 mutation-types.js 就能更好更直观地管理这些方法。这也是一种设计理念嘛，有利于后期维护。</p></p>
+<div class="pre-wrapper" v-pre="" data-lang=""><pre class=""><code class="">// mutation-types.js
+    export const PRE_PAGE = 'PRE_PAGE'
+    export const NEXT_PAGE = 'NEXT_PAGE'
+    export const GO_PAGE = 'GO_PAGE'</code></pre></div><p>mutation.js 这是 vuex 的核心文件，注册了实现的所有事件，我们定义了点击上一页、下一页和跳转到指定页面的方法。</p>
+<div class="pre-wrapper" v-pre="" data-lang=""><pre class=""><code class="">// mutation.js
+  import * as types from './mutation-types'
+
+<p>  export default {
+    // 分页 上一页
+    [types.PRE_PAGE] (state, offset) {
+      state.offset -= offset
+    },
+    // 分页 下一页
+    [types.NEXT_PAGE] (state, offset) {
+      state.offset += offset
+    },
+    // 分页 跳转到指定页码
+    [types.GO_PAGE] (state, offset) {
+      state.offset = offset
+    }
+  };</code></pre></div><h3 id="how-to-run">how to run</h3></p>
+<div class="pre-wrapper" v-pre="" data-lang=""><pre class=""><code class="">$ npm install 
+
+<p>$ npm run dev</p>
+<p>// 访问 <a href="http://localhost:8088/index.html">http://localhost:8088/index.html</a></code></pre></div><p>最后打个小广告🎣 ๑乛◡乛๑</p></p>
+<p>我的个人网站：<a href="https://minemine.cc/">https://minemine.cc/</a></p>
+<p>github 地址：<a href="https://github.com/luyilin">https://github.com/luyilin</a></p>
+</div></div></div></div> <div class="sidebar"><section class="catch-me sidebar-item"><div class="sweet"></div> <h2>Can u catch me ?</h2> <div class="catch-item"><a href="https://github.com/luyilin" target="_blank" data-tip="Github" class="item-a btn-hover btn-hover-slide"><i class="iconfont icon-github"></i></a> <a href="https://www.zhihu.com/people/yilin-lu-12/activities" target="_blank" data-tip="知乎" class="item-a btn-hover btn-hover-slide"><i class="iconfont icon-zhihu"></i></a> <a href="http://weibo.com/2719055067/profile?topnav=1&wvr=6&is_all=1" target="_blank" data-tip="Weibo" class="item-a btn-hover btn-hover-slide"><i class="iconfont icon-weibo"></i></a> <a href="https://segmentfault.com/u/yilind" target="_blank" data-tip="Segmentfault" class="item-a btn-hover btn-hover-slide"><i class="iconfont icon-iconsf"></i></a></div> <div class="catch-item"><a href="https://www.instagram.com/yilinkkk/" target="_blank" data-tip="Instagram" class="item-a btn-hover btn-hover-slide"><i class="iconfont icon-instagram"></i></a> <a href="https://t.me/luyilin" target="_blank" data-tip="Telegram" class="item-a btn-hover btn-hover-slide"><i class="iconfont icon-telegram"></i></a> <a href="https://twitter.com/luyilin12" target="_blank" data-tip="Twitter" class="item-a btn-hover btn-hover-slide"><i class="iconfont icon-twitter"></i></a> <a href="/rss" target="_blank" data-tip="RSS" class="item-a btn-hover btn-hover-slide"><i class="iconfont icon-rss"></i></a> <a href="mailto:luyilin12@gmail.com" target="_blank" data-tip="Email me!" class="item-a btn-hover btn-hover-slide"><i class="iconfont icon-email"></i></a></div></section> <section class="sidebar-item switch pointer">Close the sidebar</section></div></div></div></div></div>
+    
+    <script src="/_peco/assets/js/main.6380c2.js" defer></script>
+  </body>
+</html>
