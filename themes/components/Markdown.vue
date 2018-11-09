@@ -5,10 +5,10 @@
         {{ page.attributes.title }}
       </router-link>
     </h1>
-    <p class="meta" v-if="showDate">
-      <i class="iconfont iconfont-essay icon-icon01"></i>
-      {{ '写于' + essayDate() }}
-    </p>
+    <!--<p class="meta" v-if="showDate">-->
+      <!--<i class="iconfont iconfont-essay icon-icon01"></i>-->
+      <!--{{ '写于' + essayDate() }}-->
+    <!--</p>-->
     <h4 v-if="page.attributes.subTitle">{{ page.attributes.subTitle }}</h4>
     <div class="markdown-section" v-html="showContent()"></div>
   </div>
@@ -22,9 +22,9 @@ import '../assets/prism.css'
 export default {
   props: ['page', 'showAllContent'],
   computed: {
-    showDate: function() {
-      return this.page.attributes.date !== 'no-date'
-    }
+    // showDate: function() {
+    //   return this.page.attributes.date !== 'no-date'
+    // }
   },
   methods: {
     showContent() {

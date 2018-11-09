@@ -1,7 +1,6 @@
 ---
 title: 关于我
 subTitle: 本命程序媛，业余画师
-date: 2018-01-29
 ---
 
 欢迎来到 Minemine，很高兴遇见你～

@@ -143,7 +143,7 @@ export default {
       }
       .category {
         position: absolute;
-        top: 102px;
+        top: 82px;
         left: -12px;
         padding: 4px 8px 4px 21px;
         background-color: #a0ede9;
