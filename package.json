@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "peco dev",
+    "build": "peco build"
+  },
+  "devDependencies": {
+    "peco": "^0.2.2",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vuex": "^3.0.1"
+  },
+  "dependencies": {
+    "css-loader": "^1.0.1",
+    "headroom.js": "^0.9.3",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "marked": "^0.5.1",
+    "medium-zoom": "^0.4.0",
+    "moment": "^2.22.2",
+    "nprogress": "^0.2.0",
+    "prismjs": "^1.15.0"
+  }
+}

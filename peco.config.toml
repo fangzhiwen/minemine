@@ -1,0 +1,27 @@
+title = "minemine"
+description = "Write something for my love."
+theme = "./themes"
+googleAnalytics = ""
+url = "https://minemine.cc"
+feed = true
+author = "luyilin"
+email = "luyilin12@gmail.com"
+github = "https://github.com/luyilin"
+
+[themeConfig]
+title = "Minemine"
+website = "https://github.com/luyilin"
+repo = "luyilin/minemine"
+twitter = "luyilin12"
+
+  [[themeConfig.nav]]
+  title = "about"
+  link = "/about"
+
+  [[themeConfig.nav]]
+  title = "girls"
+  link = "/girls"
+
+  [[themeConfig.nav]]
+  title = "donate"
+  link = "/donate"
