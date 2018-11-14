@@ -199,7 +199,6 @@
 </template>
 
 <script>
-import DisqusJS from 'disqusjs'
 export default{
   data() {
     return{
@@ -210,7 +209,6 @@ export default{
     closeSidebar() {
       this.open = false
       this.$emit('closeSidebar')
-      console.log(DisqusJS)
     },
     clickStatistics (i) {
     }
