@@ -5,10 +5,6 @@
         {{ page.attributes.title }}
       </router-link>
     </h1>
-    <!--<p class="meta" v-if="showDate">-->
-      <!--<i class="iconfont iconfont-essay icon-icon01"></i>-->
-      <!--{{ '写于' + essayDate() }}-->
-    <!--</p>-->
     <h4 v-if="page.attributes.subTitle">{{ page.attributes.subTitle }}</h4>
     <div class="markdown-section" v-html="showContent()"></div>
   </div>

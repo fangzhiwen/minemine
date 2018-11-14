@@ -142,7 +142,7 @@ pre[class*="language-"] {
 .markdown-content {
   position: relative;
   margin: 0 auto;
-  padding: 28px 18px 12px 30px;
+  /*padding: 28px 18px 12px 30px;*/
   word-break: break-all;
   font-size: 16px;
 }
@@ -273,6 +273,6 @@ pre[class*="language-"] {
 }
 
 .markdown-section img {
-  width: 500px;
+  width: 400px;
   max-width: 100%;
 }

@@ -61,7 +61,7 @@ export default {
       position: relative;
       background-color: #fff;
       border-radius: 6px;
-      padding: 5px 10px 10px 0;
+      padding: 25px;
       font-family: PingFangSC-Light, Avenir, Helvetica, Arial, Hiragino Sans GB, Microsoft YaHei, sans-serif;
       margin-bottom: 45px;
       min-height: 300px;
