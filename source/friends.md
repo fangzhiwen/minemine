@@ -5,7 +5,7 @@ layout: friends
 
 这里是一群可爱的小伙伴们，欢迎交换友链 ٩(ˊᗜˋ*)و
 
-欢迎 pr 添加友联～ （最近太忙了，博主手动添加难免会有遗漏，欢迎 pr 添加哦
+欢迎 pr 添加友链～ [源代码地址](https://github.com/luyilin/minemine/blob/master/themes/layouts/friends.vue)（最近太忙了，博主手动添加难免会有遗漏，欢迎 pr 添加哦
 
 e.g.
 
