@@ -20,6 +20,7 @@
     "medium-zoom": "^0.4.0",
     "moment": "^2.22.2",
     "nprogress": "^0.2.0",
-    "prismjs": "^1.15.0"
+    "prismjs": "^1.15.0",
+    "vue-cute-timeline": "^1.2.8"
   }
 }
