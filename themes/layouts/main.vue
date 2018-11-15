@@ -57,15 +57,5 @@ export default{
 </script>
 
 <style lang="less">
-  .index-wrap {
-    position: relative;
-    /*padding-bottom: 100px;*/
-    height: 100%;
-    .scroll-top {
-      position: fixed;
-      top: -270px;
-      right: 10px;
-      z-index: 1;
-    }
-  }
+
 </style>

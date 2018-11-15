@@ -1,6 +1,7 @@
 <template>
   <div class="essay-item">
     <Markdown :page="page" :showAllContent="true"/>
+    <slot name="message"></slot>
   </div>
 </template>
 
