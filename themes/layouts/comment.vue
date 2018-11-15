@@ -13,7 +13,7 @@
 import Main from './main'
 import Markdown from '@theme/components/Markdown'
 import 'disqusjs/dist/disqusjs.css'
-// import DisqusJS from 'disqusjs'
+import DisqusJS from 'disqusjs'
 
 let loadDisqus = () => {
   (function() { // DON'T EDIT BELOW THIS LINE
@@ -33,7 +33,7 @@ export default {
   },
 
   mounted() {
-    loadDisqus()
+    // loadDisqus()
     var dsqjs = new DisqusJS({
       shortname: 'mine',
       siteName: "mine",
