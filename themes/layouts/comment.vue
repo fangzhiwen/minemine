@@ -13,7 +13,7 @@
 import Main from './main'
 import Markdown from '@theme/components/Markdown'
 import 'disqusjs/dist/disqusjs.css'
-import DisqusJS from 'disqusjs'
+// import DisqusJS from 'disqusjs'
 
 let loadDisqus = () => {
   (function() { // DON'T EDIT BELOW THIS LINE
@@ -21,6 +21,15 @@ let loadDisqus = () => {
     s.src = 'https://cdn.jsdelivr.net/npm/disqusjs@1.0.7/dist/disqus.js';
     s.setAttribute('data-timestamp', +new Date());
     (d.head || d.body).appendChild(s);
+    setTimeout(() => {
+      var dsqjs = new DisqusJS({
+        shortname: 'mine',
+        siteName: "mine",
+        url: "https://minemine.cc",
+        apikey: '6hsuNYhuAn3K2X6Jtal9IHwLKG29LnCCsLI49Q5f4dPffLoSfthM5DkaE2Jilxex',
+        admin: 'luyilin'
+      });
+    }, 500)
   })()
 }
 
@@ -33,14 +42,7 @@ export default {
   },
 
   mounted() {
-    // loadDisqus()
-    var dsqjs = new DisqusJS({
-      shortname: 'mine',
-      siteName: "mine",
-      url: "https://minemine.cc",
-      apikey: '6hsuNYhuAn3K2X6Jtal9IHwLKG29LnCCsLI49Q5f4dPffLoSfthM5DkaE2Jilxex',
-      admin: 'luyilin'
-    });
+    loadDisqus()
   },
 
   methods: {
