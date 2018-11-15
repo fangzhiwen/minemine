@@ -7,7 +7,7 @@
     <div class="category">
       <router-link class="cate" to="/code">{{ getCate() }}</router-link>
     </div>
-    <Markdown :page="page"/>
+    <Markdown :page="page" :showAllContent="showAllContent"/>
   </div>
 </template>
 
@@ -20,7 +20,7 @@ export default {
       essayWidth: '70%'
     }
   },
-  props: ['essayArray', 'page'],
+  props: ['essayArray', 'page', 'showAllContent'],
   components: {
     Markdown
   },
@@ -135,7 +135,7 @@ export default {
       }
       .meta {
         text-align: center;
-        margin-bottom: 32px;
+        margin-bottom: 42px;
         font-size: 15px;
         .iconfont-essay {
           font-size: 18px;
@@ -143,7 +143,7 @@ export default {
       }
       .category {
         position: absolute;
-        top: 82px;
+        top: 110px;
         left: -12px;
         padding: 4px 8px 4px 21px;
         background-color: #a0ede9;

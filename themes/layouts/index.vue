@@ -3,7 +3,7 @@
     <canvas id="evanyou"></canvas>
     <Main>
       <div class="essay-wrap" slot="content">
-        <Essay v-for="i, index in page.posts" :key="i.permalink" :page="i"></Essay>
+        <Essay v-for="i, index in page.posts" :key="i.permalink" :page="i" :showAllContent="false"></Essay>
       </div>
     </Main>
   </div>

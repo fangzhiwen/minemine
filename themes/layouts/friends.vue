@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Main>
-      <MainPage slot="content" :page="page">
+      <MainPage slot="content" :page="page" :showDate="false">
         <div class="admire-text" slot="message">
           <ul class="link-wrap" v-for="i in linkList">
             <li>

@@ -1,6 +1,6 @@
 <template>
   <div class="essay-item">
-    <Markdown :page="page" :showAllContent="true"/>
+    <Markdown :page="page" :showDate="showDate"/>
     <slot name="message"></slot>
   </div>
 </template>
@@ -9,7 +9,7 @@
 import Markdown from '@theme/components/Markdown'
 
 export default {
-  props: ['page'],
+  props: ['page', 'showDate'],
   components: {
     Markdown
   }

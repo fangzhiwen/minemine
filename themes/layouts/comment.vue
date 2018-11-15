@@ -2,7 +2,7 @@
   <div id="app">
     <Main>
       <div class="essay-item" slot="content">
-        <Markdown :page="page" :showAllContent="true"/>
+        <Markdown :page="page" :showDate="false"/>
         <div id="disqus_thread"></div>
       </div>
     </Main>
