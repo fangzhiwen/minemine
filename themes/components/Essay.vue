@@ -38,7 +38,7 @@ export default {
       return !tags || tags.indexOf('code') > -1 ? '举个栗子' : '青春如梦'
     },
     getCatePath() {
-      return '/tags/' + this.getCate() === '举个栗子' ? 'code' : 'life'
+      return '/tags/' + (this.getCate() === '举个栗子' ? 'code' : 'life')
     }
   }
 }
