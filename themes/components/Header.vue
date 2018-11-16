@@ -99,7 +99,10 @@
   </div>
 </template>
 <script>
-// import Headroom from 'headroom.js'
+var Headroom
+if (process.browser) {
+  Headroom = require('headroom.js')
+}
 
 export default{
   mounted() {
@@ -107,11 +110,12 @@ export default{
     //todo: ReferenceError: document is not defined
     // at /Users/uc/github/blog/minemine/node_modules/_headroom.js@0.9.3@headroom.js/dist/headroom.js:29:32
 
-    // const headroom  = new Headroom(myElement, {
-    //   "tolerance": 10,
-    //   "offset": 300
-    // })
-    // headroom.init();
+    const headroom  = new Headroom(myElement, {
+      "tolerance": 10,
+      "offset": 300
+    })
+
+    headroom.init();
   },
   data(){
     return {

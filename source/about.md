@@ -16,7 +16,7 @@ subTitle: 本命程序媛，业余画师
 喜欢画画，我画的画被 tj 赞过我会随便说嘛 (ฅ>ω<*ฅ) 真相在 [Instagram](https://www.instagram.com/p/BZBntfmlwzF/)。我从小就很`慢功夫`，画画更是如此，很简单的素描都要三个小时起跳，堪称坐冷板凳的典范，所以画画对我还蛮重要的。
 
 ## 关于 Minemine
-minemine 于 2017.4 上线，第一版前端是 vue、vuex、vue-router 写的单页应用，后端用的 koa 和 lowDB，因服务器于 2018.11.11 到期，所以去掉了 do you like me、评论模块，重构为纯静态页面，powered by [peco](https://github.com/upash/peco).✨
+minemine 于 2017.4 上线，第一版前端是 vue、vuex、vue-router 写的单页应用，后端用的 koa 和 lowDB，因服务器于 2018.11.11 到期，所以去掉了 do you like me、评论模块，重构为纯静态页面，powered by [Peco](https://github.com/upash/peco).✨
 
 截至 2018.11.11，minemine 站点大概收获了 530 个喜欢，和二百多个萌萌哒评论，因为我忘记从服务器上同步数据，导致部分评论、like 记录已不可考。。ଲ
 

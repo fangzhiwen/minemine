@@ -1,7 +1,9 @@
-import Vue from 'vue'
 import nprogress from 'nprogress'
 import 'nprogress/nprogress.css'
 import '@theme/styles/main.less'
+if (process.browser) {
+  require('./assets/iconfont/iconfont.js')
+}
 // import iconfont from './assets/iconfont/iconfont.js'
 
 export default ({ router, rootOptions }) => {

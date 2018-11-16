@@ -17,5 +17,4 @@ e.g.
   desc: 爱迪生说过：“要把BOSS打倒就要准备足够的等级。”
   email: 'luyilin12@gmail.com'
 }
-
 ```
