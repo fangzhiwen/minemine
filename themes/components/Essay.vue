@@ -4,9 +4,7 @@
       <p class="month">{{ getMonth() + '月' }}</p>
       <p class="day">{{ getDay() }}</p>
     </div>
-    <div class="category">
-      <router-link class="cate" to="/code">{{ getCate() }}</router-link>
-    </div>
+    <router-link class="category cate" :to="getCatePath()">{{ getCate() }}</router-link>
     <Markdown :page="page" :showAllContent="showAllContent"/>
   </div>
 </template>
@@ -38,6 +36,9 @@ export default {
     getCate() {
       const tags = this.page.attributes.tags
       return !tags || tags.indexOf('code') > -1 ? '举个栗子' : '青春如梦'
+    },
+    getCatePath() {
+      return '/tags/' + this.getCate() === '举个栗子' ? 'code' : 'life'
     }
   }
 }
@@ -154,9 +155,7 @@ export default {
         border-radius: 0 3px 3px 0;
         border-color: #81cac6;
         box-shadow: 0 2px 2px 0 rgba(0,0,0,.09), 0 3px 1px -2px rgba(0,0,0,.15), 0 1px 2px 0 rgba(0,0,0,.12);
-        .cate {
-          cursor: pointer;
-        }
+        cursor: pointer;
         &:after {
           position: absolute;
           content: "";
