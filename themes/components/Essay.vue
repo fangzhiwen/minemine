@@ -29,10 +29,11 @@ export default {
       return new Date(this.page.attributes.date)
     },
     getMonth() {
-      return this.getRowDate().getMonth() + 1;
+      return this.getRowDate().getMonth() + 1
     },
     getDay() {
-      return this.getRowDate().getDate();
+      const day = this.getRowDate().getDate()
+      return day < 10 ? '0' + day : day
     },
     getCate() {
       const tags = this.page.attributes.tags
