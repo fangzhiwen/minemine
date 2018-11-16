@@ -1,6 +1,7 @@
 ---
 title: 关于我
 subTitle: 本命程序媛，业余画师
+layout: pageNoDate
 ---
 
 欢迎来到 Minemine，很高兴遇见你～
