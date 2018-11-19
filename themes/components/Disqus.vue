@@ -9,7 +9,7 @@ import 'disqusjs/dist/disqusjs.css'
 export default {
   mounted() {
     let dsqjs = new DisqusJS({
-      shortname: 'minemine',
+      shortname: 'minemine-2',
       siteName: "minemine",
       url: document.location.href,
       identifier: document.location.pathname,
