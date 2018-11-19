@@ -86,7 +86,7 @@
             <span>赞赏</span>
           </div>
         </router-link>
-        <router-link class="tab tab-item" to="/about">
+        <router-link class="tab tab-item" to="/intro">
           <div class="a">
             <svg class="icon" aria-hidden="true">
               <use xlink:href="#icon-girl"></use>
