@@ -2,7 +2,7 @@ module.exports = {
   title: 'minemine',
   deescription: 'Write something for my love.',
   theme: "./themes",
-  googleAnalytics: "",
+  googleAnalytics: "UA-54857209-6",
   url: "https://minemine.cc",
   feed: true,
   author: "luyilin",
