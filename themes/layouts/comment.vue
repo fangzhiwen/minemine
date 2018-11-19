@@ -12,15 +12,8 @@
 <script>
 import Main from './main'
 import Markdown from '@theme/components/Markdown'
-
-let loadDisqus = () => {
-  (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://minemine-2.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-  })()
-}
+import DisqusJS from '../utils/disqus'
+import 'disqusjs/dist/disqusjs.css'
 
 export default {
   props: ['page'],
@@ -31,7 +24,13 @@ export default {
   },
 
   mounted() {
-    loadDisqus()
+    var dsqjs = new DisqusJS({
+      shortname: 'minemine',
+      siteName: "minemine",
+      url: "https://minemine.cc",
+      apikey: '6hsuNYhuAn3K2X6Jtal9IHwLKG29LnCCsLI49Q5f4dPffLoSfthM5DkaE2Jilxex',
+      admin: 'luyilin'
+    });
   },
 
   methods: {
