@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header id="header">
     <h1 @click="refresh" class="main-title pointer"></h1>
     <div class="intro animated bounceInUp">
       <img class="avatar animated" src="https://wx2.sinaimg.cn/mw690/a2117cdbly1fnu37j8tfkj20cs0cst91.jpg">
@@ -29,7 +29,7 @@ export default{
 
 <style lang="less">
 .index-wrap {
-  header {
+  #header {
     height: 620px;
     background: url("https://ooo.0o0.ooo/2017/02/08/589ac29fe230a.jpg") no-repeat;
     background-size: cover;
