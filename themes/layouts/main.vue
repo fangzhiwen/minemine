@@ -6,8 +6,8 @@
     <div class="content-wrap">
       <div class="essay-wrap" :style="{width: essayWidth}">
         <slot name="content"></slot>
+        <slot name="comment"></slot>
       </div>
-      <slot name="comment"></slot>
       <Sidebar @closeSidebar="widen"></Sidebar>
     </div>
     <!--<Footer/>-->
