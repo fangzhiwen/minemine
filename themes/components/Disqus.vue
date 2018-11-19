@@ -8,9 +8,11 @@ import 'disqusjs/dist/disqusjs.css'
 
 export default {
   mounted() {
-    var dsqjs = new DisqusJS({
+    let dsqjs = new DisqusJS({
       shortname: 'minemine',
       siteName: "minemine",
+      url: document.location.href,
+      identifier: document.location.pathname,
       apikey: '6hsuNYhuAn3K2X6Jtal9IHwLKG29LnCCsLI49Q5f4dPffLoSfthM5DkaE2Jilxex',
       admin: 'luyilin'
     });
