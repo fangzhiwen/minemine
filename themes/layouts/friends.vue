@@ -12,9 +12,9 @@
               </a>
             </li>
           </ul>
-          <div id="disqus_thread"></div>
         </div>
       </MainPage>
+      <Disqus slot="comment"/>
     </Main>
   </div>
 </template>
@@ -22,6 +22,7 @@
 <script>
 import Main from './main'
 import MainPage from '@theme/components/MainPage'
+import Disqus from '@theme/components/Disqus'
 
 let loadDisqus = () => {
   (function() { // DON'T EDIT BELOW THIS LINE
@@ -37,7 +38,8 @@ export default {
 
   components: {
     Main,
-    MainPage
+    MainPage,
+    Disqus
   },
 
   mounted() {
