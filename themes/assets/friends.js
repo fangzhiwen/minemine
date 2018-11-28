@@ -147,13 +147,6 @@ export default [
     "desc": ""
   },
   {
-    "author": "乱码",
-    "email": "",
-    "url": "https://luan.ma/",
-    "avatar": "https://en.gravatar.com/userimage/146884562/1b76133191c006b7e0d549b0ed73a23c.jpg",
-    "desc": ""
-  },
-  {
     "author": "Zong",
     "url": "https://zongzi531.com",
     "avatar": "https://avatars2.githubusercontent.com/u/22429236?v=4",
