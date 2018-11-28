@@ -4,7 +4,6 @@ import '@theme/styles/main.less'
 if (process.browser) {
   require('./assets/iconfont/iconfont.js')
 }
-// import iconfont from './assets/iconfont/iconfont.js'
 
 export default ({ router, rootOptions }) => {
   if (process.browser) {

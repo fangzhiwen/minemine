@@ -18,8 +18,6 @@ export default {
   components: {
     Main,
     Essay
-  },
-  methods: {
   }
 }
 </script>

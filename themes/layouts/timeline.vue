@@ -51,8 +51,6 @@ export default {
     Timeline,
     TimelineItem,
     TimelineTitle
-  },
-  methods: {
   }
 }
 </script>

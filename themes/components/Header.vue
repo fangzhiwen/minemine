@@ -100,6 +100,7 @@
 </template>
 <script>
 var Headroom
+// fix: ReferenceError: document is not defined
 if (process.browser) {
   Headroom = require('headroom.js')
 }
@@ -107,9 +108,6 @@ if (process.browser) {
 export default{
   mounted() {
     const myElement = document.querySelector('.nav-wrap')
-    //todo: ReferenceError: document is not defined
-    // at /Users/uc/github/blog/minemine/node_modules/_headroom.js@0.9.3@headroom.js/dist/headroom.js:29:32
-
     const headroom  = new Headroom(myElement, {
       "tolerance": 10,
       "offset": 300
@@ -129,12 +127,6 @@ export default{
     },
     codeShowFn() {
       this.codeShow = !this.codeShow
-    },
-    textShowNot() {
-      this.textShow = false
-    },
-    codeShowNot() {
-      this.codeShow = false
     }
   }
 }
