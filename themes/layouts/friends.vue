@@ -23,7 +23,7 @@
 import Main from './main'
 import MainPage from '@theme/components/MainPage'
 import Disqus from '@theme/components/Disqus'
-import friendsList from '../assets/friends'
+import friendsList from '../assets/friends.data'
 
 export default {
   props: ['page'],
