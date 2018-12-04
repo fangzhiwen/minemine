@@ -10,7 +10,7 @@ export default [
     "author": "Airing",
     "email": "airing@ursb.me",
     "url": "http://ursb.me/",
-    "avatar": "http://blog.ursb.me/img/face.png",
+    "avatar": "https://i.loli.net/2018/12/04/5c061b2adbebd.png",
     "desc": "我是一只小小小小熊"
   },
   {

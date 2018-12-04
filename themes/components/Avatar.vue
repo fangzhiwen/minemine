@@ -31,7 +31,7 @@ export default{
 .index-wrap {
   #header {
     height: 620px;
-    background: url("https://ooo.0o0.ooo/2017/02/08/589ac29fe230a.jpg") no-repeat;
+    background: url("https://i.loli.net/2017/02/08/589ac29fe230a.jpg") no-repeat;
     background-size: cover;
     text-align: center;
     margin-bottom: 120px;
