@@ -7,6 +7,13 @@ export default [
     "desc": "Write the Code. Change the World."
   },
   {
+    "author": "Airing",
+    "email": "airing@ursb.me",
+    "url": "http://ursb.me/",
+    "avatar": "http://blog.ursb.me/img/face.png",
+    "desc": "我是一只小小小小熊"
+  },
+  {
     "author": "笈川可可",
     "email": "0xbbc@0xbbc.com",
     "url": "https://blog.0xbbc.com/",
