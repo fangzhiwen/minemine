@@ -20,19 +20,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: #37414a;
 }
-// used by minemine title
-@font-face {
-  font-family: Fredericka;
-  src: url('../assets/FrederickatheGreat-Regular.ttf');
-}
-@font-face {
-  font-family: IndieFlower;
-  src: url('../assets/IndieFlower.ttf');
-}
-@font-face {
-  font-family: Inconsolata-Regular;
-  src: url('../assets/Inconsolata-Regular.ttf');
-}
+
 .iconfont {
   font-size: 20px;
   line-height: 1.8;
@@ -89,11 +77,12 @@ button {
   outline: none;
   -webkit-appearance: none;
 }
-#nprogress .bar {
-  background: #a0ede9 !important;
-}
+
 /* 修改 nprogress 进度条颜色 */
 @nprogressColor: #a0ede9;
+#nprogress .bar {
+  background: @nprogressColor !important;
+}
 #nprogress {
   background: @nprogressColor !important;
   .bar {

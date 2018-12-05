@@ -43,7 +43,7 @@ export default{
       display: inline-block;
       color: #fff;
       margin-top: 220px;
-      font-family: Fredericka, Helvetica, 'Hiragino Sans GB', Arial, 'Microsoft YaHei', sans-serif;
+      font-family: 'Fredericka the Great', Helvetica, 'Hiragino Sans GB', Arial, 'Microsoft YaHei', sans-serif;
       letter-spacing: 4px;
       font-weight: 300;
       font-size: 60px;
@@ -77,7 +77,7 @@ export default{
       h2 {
         font-size: 26px;
         color: #f39999;
-        font-family: IndieFlower, Helvetica, 'Hiragino Sans GB', Arial, 'Microsoft YaHei', sans-serif;
+        font-family: 'Indie Flower', Helvetica, 'Hiragino Sans GB', Arial, 'Microsoft YaHei', sans-serif;
         letter-spacing: 1px;
       }
     }

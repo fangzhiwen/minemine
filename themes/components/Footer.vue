@@ -36,7 +36,7 @@
   padding: 7px 0
   color: #616161
   background-color: mistyrose
-  font-family: Inconsolata-Regular, PingFangSC-Light, Avenir, Helvetica, 'Hiragino Sans GB', Arial, 'Microsoft YaHei', sans-serif;
+  font-family: source-code-pro,Menlo,Monaco,Consolas,Courier New,monospace
   a
     color: #93a1a1
     text-decoration: none

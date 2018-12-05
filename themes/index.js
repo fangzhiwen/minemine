@@ -4,6 +4,9 @@ import '@theme/styles/main.less'
 if (process.browser) {
   require('./assets/iconfont/iconfont.js')
 }
+// use Typefaces — making it easier to self-host webfonts.
+import 'typeface-fredericka-the-great'
+import 'typeface-indie-flower'
 
 export default ({ router, rootOptions }) => {
   if (process.browser) {

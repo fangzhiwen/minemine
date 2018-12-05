@@ -146,7 +146,7 @@ export default{
   nav {
     max-width: 80%;
     margin: 0 auto;
-    font-family: IndieFlower, PingFangSC-Light, Avenir, Helvetica, 'Hiragino Sans GB', Arial, 'Microsoft YaHei', sans-serif;
+    font-family: 'Indie Flower', PingFangSC-Light, Avenir, Helvetica, 'Hiragino Sans GB', Arial, 'Microsoft YaHei', sans-serif;
     @media screen and (max-width: 1075px) {
       max-width: 100% !important;
     }

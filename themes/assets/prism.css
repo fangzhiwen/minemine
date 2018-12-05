@@ -256,7 +256,7 @@ pre[class*="language-"] {
   background-color: #f9f9f9;
   border-radius: 3px;
   /*white-space: pre;*/
-  font-family: Inconsolata-Regular, Helvetica, 'Hiragino Sans GB', Arial, 'Microsoft YaHei', sans-serif;
+  font-family: source-code-pro,Menlo,Monaco,Consolas,Courier New,monospace;
   line-height: 1.2;
 }
 
@@ -264,7 +264,7 @@ pre[class*="language-"] {
   background-color: #f9f9f9;
   border-left: 2px solid #eee;
   margin: 0 0 1em 0;
-  font-family: Inconsolata-Regular, Helvetica, 'Hiragino Sans GB', Arial, 'Microsoft YaHei', sans-serif;
+  font-family: source-code-pro,Menlo,Monaco,Consolas,Courier New,monospace;
   padding: 12px 10px 12px 12px;
   font-size: 16px;
   overflow: auto;
