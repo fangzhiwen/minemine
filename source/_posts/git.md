@@ -280,19 +280,20 @@ gerrit merge 前执行 git commit --amend 改写上次提交，并将 gerrit 上
 bash ctrl＋R 快速查看输入过的命令
 
 git 创建仓库并关联到 github
+```bash
   * cd 到项目目录，git init 初始化，使 git 对此项目进行版本控制
   * git add .
   * git commit -m ''
   * 在 github 上创建一个新仓库 create a new repository
-  * 将本地项目关联到建立的新仓库上 ```git remote add origin {{url}}```
-  * 运行 ```$ git remote -v``` 查看 origin 关联
-  * ```git push -u origin master```
-
-  * 若本地已有代码非空, 则直接```git remote add origin {{url}}```
-  * ```git push -u origin master```
-
-  * 若将一个 git 仓库关联为另一个 git 仓库,则```ls -a``` 删除 .git/ 文件夹即可
+  * 将本地项目关联到建立的新仓库上 git remote add origin {{url}}
+  * 运行 $ git remote -v 查看 origin 关联
+  * git push -u origin master
+  * 若本地已有代码非空, 则直接 git remote add origin {{url}}
+  * git push -u origin master
+  * 若将一个 git 仓库关联为另一个 git 仓库,则 ls -a 删除 .git/ 文件夹即可
     删除 git 版本控制, 然后再执行 remote
+```
+  
 
 Github Pages 发布静态页面
   * repository-Settings-Github Pages-select a source and save

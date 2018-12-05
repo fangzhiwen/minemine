@@ -1,5 +1,4 @@
 import Marked from 'marked'
-// import Prism from 'prismjs'
 const toc = []
 const renderer = new Marked.Renderer()
 

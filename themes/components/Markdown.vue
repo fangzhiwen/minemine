@@ -17,7 +17,6 @@
 <script>
 import Moment from 'moment'
 import { marked } from '../utils/index'
-import '../assets/prism.css'
 
 export default {
   props: {
