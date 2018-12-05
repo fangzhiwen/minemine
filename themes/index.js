@@ -3,6 +3,7 @@ import 'nprogress/nprogress.css'
 import '@theme/styles/main.less'
 if (process.browser) {
   const iconfont = require('./assets/iconfont/iconfont.js')
+  // use Typefaces — making it easier to self-host webfonts.
   const fredericka = require('typeface-fredericka-the-great')
   const indieFlower = require('typeface-indie-flower')
 }

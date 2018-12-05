@@ -8,7 +8,9 @@ tags:
 分页效果预览：
   * [在线 demo](https://luyilin.github.io/Minemine-pagination/dist/index.html)
   * [github 地址](https://github.com/luyilin/Minemine-pagination)
-  * 分页效果截图![messagedboard](https://ooo.0o0.ooo/2017/04/19/58f7246807888.png)
+  * 分页效果截图
+  
+  ![messagedboard](https://i.loli.net/2018/12/05/5c079d83943bc.png)
   
 ### 前言
 
