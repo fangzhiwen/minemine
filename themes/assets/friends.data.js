@@ -14,19 +14,26 @@ export default [
     "desc": "我是一只小小小小熊"
   },
   {
+    "author": "二哲",
+    "email": "",
+    "url": "http://www.meckodo.com/#!/",
+    "avatar": "http://www.meckodo.com/static/me.jpg?3aed1dc4cf3feffa72cc12131551f1c8",
+    "desc": "noooooooooooob"
+  },
+  {
     "author": "笈川可可",
     "email": "0xbbc@0xbbc.com",
     "url": "https://blog.0xbbc.com/",
     "avatar": "https://s.gravatar.com/avatar/a9556814c9b7e1a180bcc0f0032c6a77?s=100&r=x&d=retro",
     "desc": "神楽坂碧玺 -> 笈川可可"
   },
-  {
-    "author": "初夏小朋友",
-    "email": "janervy@qq.com",
-    "url": "http://www.61cx.cn",
-    "avatar": "https://s.gravatar.com/avatar/102feee3704a0e8869426524dc3a1360?s=100&r=x&d=retro",
-    "desc": "一个可爱的狗博主2333"
-  },
+  // {
+  //   "author": "初夏小朋友",
+  //   "email": "janervy@qq.com",
+  //   "url": "http://www.61cx.cn",
+  //   "avatar": "https://s.gravatar.com/avatar/102feee3704a0e8869426524dc3a1360?s=100&r=x&d=retro",
+  //   "desc": "一个可爱的狗博主2333"
+  // },
   {
     "author": "Mashiro",
     "email": "adadam@qq.com",
@@ -63,13 +70,6 @@ export default [
     "desc": "墨墨的来，看一看这里的精彩"
   },
   {
-    "author": "立花水",
-    "email": "958142428@qq.com",
-    "url": "https://i.onesan.org",
-    "avatar": "https://s.gravatar.com/avatar/d43602b3fc54c761def75893e37ed6fc?s=100&r=x&d=retro",
-    "desc": "一个喜欢化学， 改样式写前端的 phper"
-  },
-  {
     "author": "Loren",
     "email": "1351207341@qq.com",
     "url": "https://lozz.cc",
@@ -102,13 +102,6 @@ export default [
     "email": "admin@maplefeng.com",
     "url": "https://www.maplefeng.com",
     "avatar": "https://s.gravatar.com/avatar/69acc2a50f42572754c776482af2490e?s=100&r=x&d=retro",
-    "desc": ""
-  },
-  {
-    "author": "十载北林",
-    "email": "1143524493@qq.com",
-    "url": "https://blog.kingsr.cc",
-    "avatar": "https://s.gravatar.com/avatar/dce77d27fc8bd42ef671230baf5795a8?s=100&r=x&d=retro",
     "desc": ""
   },
   {

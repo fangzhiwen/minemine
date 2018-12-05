@@ -1,9 +1,8 @@
 <template>
-  <div id="disqus_thread"></div>
+  <div id="disqus_thread" />
 </template>
 
 <script>
-// import DisqusJS from '../utils/disqus'
 import DisqusJS from 'disqusjs'
 import 'disqusjs/dist/disqusjs.css'
 
