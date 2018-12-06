@@ -16,8 +16,8 @@ module.exports = {
     repo: "luyilin/minemine",
     twitter: "luyilin12"
   },
-  chainWebpack(config) {
-    if (isProd) {
+  chainWebpack(config, context) {
+    if (context === 'client') {
       config.plugin('offline').use(require('offline-plugin'), [
         {
           ServiceWorker: {

@@ -6,12 +6,7 @@ if (process.browser) {
   // use Typefaces — making it easier to self-host webfonts.
   const fredericka = require('typeface-fredericka-the-great')
   const indieFlower = require('typeface-indie-flower')
-}
-
-const isProd = process.env.NODE_ENV === 'production'
-if (isProd) {
-  // require('offline-plugin/runtime')
-  require('./utils/offline')
+  const offline = require('./utils/offline')
 }
 
 export default ({ router, rootOptions }) => {
