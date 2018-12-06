@@ -1,4 +1,5 @@
-import * as runtime from 'offline-plugin/runtime'
+// import * as runtime from 'offline-plugin/runtime'
+import * as runtime from './runtime'
 
 runtime.install({
   onInstalled() {

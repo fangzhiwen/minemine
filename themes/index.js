@@ -9,7 +9,8 @@ if (process.browser) {
 }
 
 const isProd = process.env.NODE_ENV === 'production'
-if (process.browser && isProd) {
+if (isProd) {
+  // require('offline-plugin/runtime')
   require('./utils/offline')
 }
 
