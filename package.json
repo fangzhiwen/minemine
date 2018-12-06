@@ -20,6 +20,7 @@
     "medium-zoom": "^0.4.0",
     "moment": "^2.22.2",
     "nprogress": "^0.2.0",
+    "offline-plugin": "^5.0.6",
     "typeface-fredericka-the-great": "^0.0.54",
     "typeface-indie-flower": "^0.0.54",
     "vue-cute-timeline": "^1.2.8"

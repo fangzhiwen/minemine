@@ -1,3 +1,5 @@
+const isProd = process.env.NODE_ENV === 'production'
+
 module.exports = {
   title: 'minemine',
   deescription: 'Write something for my love.',
@@ -13,5 +15,19 @@ module.exports = {
     website: "https://github.com/luyilin",
     repo: "luyilin/minemine",
     twitter: "luyilin12"
+  },
+  chainWebpack(config) {
+    if (process.browser && isProd) {
+      config.plugin('offline').use(require('offline-plugin'), [
+        {
+          ServiceWorker: {
+            output: 'service-worker.js',
+            events: true
+          },
+          AppCache: false,
+          excludes: ['favicon.ico']
+        }
+      ])
+    }
   }
 }

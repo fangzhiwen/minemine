@@ -8,6 +8,11 @@ if (process.browser) {
   const indieFlower = require('typeface-indie-flower')
 }
 
+const isProd = process.env.NODE_ENV === 'production'
+if (process.browser && isProd) {
+  require('./utils/offline')
+}
+
 export default ({ router, rootOptions }) => {
   if (process.browser) {
     const loaded = Object.create(null)
