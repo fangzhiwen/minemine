@@ -17,7 +17,7 @@ module.exports = {
     twitter: "luyilin12"
   },
   chainWebpack(config) {
-    if (process.browser && isProd) {
+    if (isProd) {
       config.plugin('offline').use(require('offline-plugin'), [
         {
           ServiceWorker: {
