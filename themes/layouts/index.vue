@@ -1,9 +1,7 @@
 <template>
   <div id="app">
     <Main>
-      <div class="essay-wrap" slot="content">
-        <Essay v-for="i, index in page.posts" :key="i.permalink" :page="i" :showAllContent="false"></Essay>
-      </div>
+      <Essay slot="content" v-for="i, index in page.posts" :key="i.permalink" :page="i" :showAllContent="false"></Essay>
     </Main>
   </div>
 </template>
