@@ -152,5 +152,12 @@ export default [
     "avatar": "https://avatars2.githubusercontent.com/u/22429236?v=4",
     "desc": "人之所以能，是相信能",
     "email": "zongzi.xy@gmail.com",
+  },
+  {
+    "author": "搅拌糖",
+    "url": "blog.treelo.xin",
+    "avatar": "http://cdn.treelo.xin/avatar.png",
+    "desc": "种一棵树最好的时间是十年前，其次是现在",
+    "email": "jiaobantang@126.com",
   }
 ]
