@@ -39,4 +39,12 @@ peco 支持 chainWebpack 配置，需要注意的是要判断当```context === c
 
 ![after use Service Workers](https://i.loli.net/2018/12/07/5c0a6ab00e6b6.png)
 
-并且博客可以在离线环境下访问了，给你原生应用的体验～
+现在博客可以在离线环境下访问了，真是前所未有的体验……
+
+![Application](https://i.loli.net/2018/12/13/5c11d4df6b050.png)
+
+在 Chrome DevTools Application-Service Workers 面板可以看到当前域名加载的 Service Worker 文件，offline 选项可以将当前页面切换为离线模式，和 Network 里的离线模式一样，不用断开 Wi-Fi 即可调试。
+
+需要注意的是 offline-plugin 插件没有提供注销 Service Worker 的 unregister 方法，如果业务需要需要注销掉 Service Worker 可以调用原生的 unregister 方法（这里有一个[栗子](https://segmentfault.com/a/1190000010669126#articleHeader6)），调试时也可以在 Application-Service Workers 面板里手动注销掉当前 Service Workers 线程。
+
+然后在下方的 Cache Storage 里可以查看 Service Worker 线程缓存的只读资源列表，可以右键点击出现的 delete 选项清除缓存，或点击 Clear storage 清除缓存。
