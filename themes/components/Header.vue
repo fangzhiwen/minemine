@@ -26,11 +26,8 @@
             <span>文字</span>
           </div>
           <div class="tab-1" v-show="textShow">
-            <router-link to="/tags/life" class="li-1 tab-item">
-              <div class="a">青春如梦</div>
-            </router-link>
-            <router-link to="/tags/code" class="li-1 tab-item">
-              <div class="a">举个栗子</div>
+            <router-link v-for="item in $themeConfig.tags" :to="'/tags/' + item.path" class="li-1 tab-item">
+              <div class="a">{{ item.name }}</div>
             </router-link>
           </div>
         </div>
@@ -42,23 +39,8 @@
             <span>code</span>
           </div>
           <ul class="tab-1" v-show="codeShow">
-            <li class="li-1">
-              <a href="https://luyilin.github.io/Aoba" target="_blank">Aoba</a>
-            </li>
-            <li class="li-1">
-              <a href="https://luyilin.github.io/foldcontent-zhihu/src/demo.html" target="_blank">foldcontent-zhihu</a>
-            </li>
-            <li class="li-1">
-              <a href="https://luyilin.github.io/vue-pagination-minemine/dist/index.html" target="_blank">vue-pagination</a>
-            </li>
-            <li class="li-1">
-              <a href="https://luyilin.github.io/vue-google-form/dist/index" target="_blank">vue-google-form</a>
-            </li>
-            <li class="li-1">
-              <a href="https://luyilin.github.io/Maltose/demo/" target="_blank">Maltose</a>
-            </li>
-            <li class="li-1">
-              <a href="https://github.com/luyilin/awesome-web" target="_blank">awesome web</a>
+            <li v-for="item in $themeConfig.codeDemo" class="li-1">
+              <a :href="item.link" target="_blank">{{ item.title }}</a>
             </li>
           </ul>
         </div>
@@ -99,7 +81,7 @@
   </div>
 </template>
 <script>
-var Headroom
+let Headroom
 // fix: ReferenceError: document is not defined
 if (process.browser) {
   Headroom = require('headroom.js')
