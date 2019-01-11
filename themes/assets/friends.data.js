@@ -159,5 +159,12 @@ export default [
     "avatar": "http://cdn.treelo.xin/avatar.png",
     "desc": "种一棵树最好的时间是十年前，其次是现在",
     "email": "jiaobantang@126.com",
+  },
+  {
+    "author": "随遇而安",
+    "url": "https://www.iszy.cc",
+    "avatar": "https://gravatar.loli.net/avatar/5012e410377c7a93d14f7bf31aeeb7fd",
+    "desc": "生活吐槽 & 学习记录",
+    "email": "hi@iszy.xyz"
   }
 ]
