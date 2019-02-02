@@ -1,6 +1,7 @@
 import nprogress from 'nprogress'
 import 'nprogress/nprogress.css'
 import '@theme/styles/main.less'
+// import 'prismjs'
 if (process.browser) {
   const iconfont = require('./assets/iconfont/iconfont.js')
   // use Typefaces — making it easier to self-host webfonts.

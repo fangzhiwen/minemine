@@ -1,5 +1,11 @@
 export default [
   {
+    year: '2019',
+    date: '02-02',
+    path: '/2019/02/02/2018-summary',
+    title: '2018 年终总结'
+  },
+  {
     year: '2018',
     date: '12-07',
     path: '/2018/12/07/service-workers-experience',
