@@ -173,7 +173,7 @@
            data-tip="Telegram" @mousedown="clickStatistics('Telegram')">
           <i class="iconfont icon-telegram"></i>
         </a>
-        <a href="https://twitter.com/luyilin12" target="_blank" class="item-a btn-hover btn-hover-slide"
+        <a :href="`https://twitter.com/${$themeConfig.twitter}`" target="_blank" class="item-a btn-hover btn-hover-slide"
            data-tip="Twitter" @mousedown="clickStatistics('Twitter')">
           <i class="iconfont icon-twitter"></i>
         </a>

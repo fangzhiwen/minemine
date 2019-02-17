@@ -10,12 +10,18 @@
 </template>
 
 <script>
-import Main from './main'
-import Markdown from '@theme/components/Markdown'
-import Disqus from '@theme/components/Disqus'
+import Main from './main.vue'
+import Markdown from '#theme/components/Markdown.vue'
+import Disqus from '#theme/components/Disqus.vue'
 
 export default {
   props: ['page'],
+
+  head() {
+    return {
+      title: `${this.page.attributes.title} - ${this.$siteConfig.title}`
+    }
+  },
 
   components: {
     Main,

@@ -1,5 +1,6 @@
 ---
 title: 一名曾经沉迷网络小说的少女的自白
+layout: page
 date: 2017-12-01
 tags:
   - life
@@ -11,7 +12,9 @@ tags:
 
 ![网络小说](https://i.loli.net/2017/12/01/5a2129fc56935.png)
 
-emmmm行吧，那么网络作家呢，<!--more-->
+emmmm行吧，那么网络作家呢，
+
+<!--more-->
 
 ![网络作家](https://i.loli.net/2017/12/01/5a212bac991ef.png)
 

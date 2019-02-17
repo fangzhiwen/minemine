@@ -5,7 +5,7 @@
         <timeline timelineTheme="#FFD9C9">
           <template v-for="item in yearList">
             <timeline-title>{{item}}</timeline-title>
-            <timeline-item v-for="i in yearTimeline(item)">
+            <timeline-item v-for="(i, index) in yearTimeline(item)" :key="index">
               <span>{{i.date}}</span>
               <a :href="i.path">{{i.title}}</a>
             </timeline-item>
@@ -17,12 +17,18 @@
 </template>
 
 <script>
-import Main from './main'
+import Main from './main.vue'
 import { Timeline, TimelineItem, TimelineTitle } from 'vue-cute-timeline'
 import timeLineList from '../assets/timeline.data'
 
 export default {
   props: ['page'],
+
+  head() {
+    return {
+      title: `${this.page.attributes.title} - ${this.$siteConfig.title}`
+    }
+  },
 
   data() {
     return {

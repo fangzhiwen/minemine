@@ -2,22 +2,22 @@
   <div class="nav-wrap headroom">
     <nav>
       <div class="tab-wrap">
-        <router-link to="/" class="tab tab-item">
+        <saber-link to="/" class="tab tab-item">
           <div class="a">
             <svg class="icon" aria-hidden="true">
               <use xlink:href="#icon-folder"></use>
             </svg>
             <span>Mine</span>
           </div>
-        </router-link>
-        <router-link to="/timeline" class="tab tab-item">
+        </saber-link>
+        <saber-link to="/timeline" class="tab tab-item">
           <div class="a">
             <svg class="icon" aria-hidden="true">
               <use xlink:href="#icon-pencil"></use>
             </svg>
             <span>时间轴</span>
           </div>
-        </router-link>
+        </saber-link>
         <div class="tab tab-item" @mouseenter="textShow = true" @mouseleave="textShow = false">
           <div class="a" @click="textShowFn">
             <svg class="icon" aria-hidden="true">
@@ -26,9 +26,9 @@
             <span>文字</span>
           </div>
           <div class="tab-1" v-show="textShow">
-            <router-link v-for="item in $themeConfig.tags" :to="'/tags/' + item.path" class="li-1 tab-item">
+            <saber-link v-for="(item, index) in $themeConfig.tags" :key="index" :to="'/tags/' + item.path" class="li-1 tab-item">
               <div class="a">{{ item.name }}</div>
-            </router-link>
+            </saber-link>
           </div>
         </div>
         <div class="tab tab-item" @mouseenter="codeShow = true" @mouseleave="codeShow = false">
@@ -39,43 +39,43 @@
             <span>code</span>
           </div>
           <ul class="tab-1" v-show="codeShow">
-            <li v-for="item in $themeConfig.codeDemo" class="li-1">
+            <li v-for="(item, index) in $themeConfig.codeDemo" class="li-1" :key="index">
               <a :href="item.link" target="_blank">{{ item.title }}</a>
             </li>
           </ul>
         </div>
-        <router-link class="tab tab-item" to="/friends">
+        <saber-link class="tab tab-item" to="/friends">
           <div class="a">
             <svg class="icon" aria-hidden="true">
               <use xlink:href="#icon-doughnut"></use>
             </svg>
             <span>友人账</span>
           </div>
-        </router-link>
-        <router-link class="tab tab-item" to="/comment">
+        </saber-link>
+        <saber-link class="tab tab-item" to="/comment">
           <div class="a">
             <svg class="icon" aria-hidden="true">
               <use xlink:href="#icon-chat"></use>
             </svg>
             <span>留言板</span>
           </div>
-        </router-link>
-        <router-link class="tab tab-item" to="/admire">
+        </saber-link>
+        <saber-link class="tab tab-item" to="/admire">
           <div class="a">
             <svg class="icon" aria-hidden="true">
               <use xlink:href="#icon-beer"></use>
             </svg>
             <span>赞赏</span>
           </div>
-        </router-link>
-        <router-link class="tab tab-item" to="/about">
+        </saber-link>
+        <saber-link class="tab tab-item" to="/about">
           <div class="a">
             <svg class="icon" aria-hidden="true">
               <use xlink:href="#icon-girl"></use>
             </svg>
             <span>关于我</span>
           </div>
-        </router-link>
+        </saber-link>
       </div>
     </nav>
   </div>

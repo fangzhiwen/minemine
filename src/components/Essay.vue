@@ -4,13 +4,13 @@
       <p class="month">{{ getMonth() + '月' }}</p>
       <p class="day">{{ getDay() }}</p>
     </div>
-    <router-link class="category cate" :to="getCatePath()">{{ getCate() }}</router-link>
+    <saber-link class="category cate" :to="getCatePath()">{{ getCate() }}</saber-link>
     <Markdown :page="page" :showAllContent="showAllContent"/>
   </div>
 </template>
 
 <script>
-import Markdown from '@theme/components/Markdown'
+import Markdown from '#theme/components/Markdown.vue'
 
 export default {
   data() {

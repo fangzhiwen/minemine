@@ -1,16 +1,19 @@
 <template>
   <div class="markdown-content">
     <h1>
-      <router-link :to="page.permalink" class="essay-title">
+      <saber-link :to="page.attributes.permalink" class="essay-title">
         {{ page.attributes.title }}
-      </router-link>
+      </saber-link>
     </h1>
     <p class="meta" v-if="showDate">
       <i class="iconfont iconfont-essay icon-icon01"></i>
       {{ '写于' + essayDate() }}
     </p>
     <h4 v-if="page.attributes.subTitle">{{ page.attributes.subTitle }}</h4>
-    <div class="markdown-section" v-html="showContent()"></div>
+    <div class="markdown-section" v-if="$slots.content">
+      <slot name="content"></slot>
+    </div>
+    <div class="markdown-section" v-else-if="page.attributes.excerpt" v-html="page.attributes.excerpt"></div>
   </div>
 </template>
 
@@ -33,14 +36,6 @@ export default {
     }
   },
   methods: {
-    showContent() {
-      const content = this.page.body
-      const moreIndex = content.indexOf('<!--more-->')
-      const showPart = moreIndex > -1 && !this.showAllContent
-      const showContent = showPart ? content.slice(0, moreIndex) : content
-      const moreBtn = showPart ? `<a class="unfold fold-btn" href=${this.page.permalink}>显示全文~</a>` : ''
-      return marked(showContent) + moreBtn
-    },
     essayDate() {
       return Moment(this.page.attributes.date).format("YYYY年MM月DD日");
     }
