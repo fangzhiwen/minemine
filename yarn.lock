@@ -5396,6 +5396,11 @@ run-queue@^1.0.0, run-queue@^1.0.3:
   dependencies:
     aproba "^1.1.1"
 
+saber-generator-feed@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.npmjs.org/saber-generator-feed/-/saber-generator-feed-0.0.1.tgz#37e9058df131335a1b3a6301dc68e4194b2fbcf2"
+  integrity sha512-sw8sMIq/FIxgO3nrUIyo9c1dzgWMNDiBt+rl6v70DweUPCGtg5+ogKPDsKkJhMOuf/lYYNp84RMfTjbGTfIFsA==
+
 saber-log@^0.1.1:
   version "0.1.1"
   resolved "https://registry.npmjs.org/saber-log/-/saber-log-0.1.1.tgz#a111d5ea45b1ee62f326e8f14bfeff3942e19d1d"
@@ -5416,10 +5421,10 @@ saber-utils@^0.0.3:
   resolved "https://registry.npmjs.org/saber-utils/-/saber-utils-0.0.3.tgz#c5f81dd182faf6edd6f9f1b81484c589fbe952d6"
   integrity sha512-4spEvm0wyZ7SR81+UOnvuVWhKb7rzalzibYRqemLc57kuZLwZ4lhIE7nLMfFmnweI8m0vRq0I+aXVHEWK1ea/g==
 
-saber@^0.2.7:
-  version "0.2.7"
-  resolved "https://registry.npmjs.org/saber/-/saber-0.2.7.tgz#1d6fbb2e4808ae3c8cba703dcc7fa844f85c1b55"
-  integrity sha512-S5X3o6LhRDiOKnnw7sjB+fkcpMugUGcIPzLOW2g4OoVg3x8niFoWUuGmyzUX0/i582lJpi69QuA3uAOHMOumyA==
+saber@^0.2.8:
+  version "0.2.8"
+  resolved "https://registry.npmjs.org/saber/-/saber-0.2.8.tgz#75ce0d44dced2e4b8a5de0f12c8d3c6e59815722"
+  integrity sha512-VI/VJ3WZpoIT8qWiVA2dfpGhe6dEMXK0GR80IiMiHfX7erm8Zg6KIDSr0FP25rEQQ8zdyo+8/Gq66Y2CjMSAmA==
   dependencies:
     "@babel/core" "^7.2.2"
     "@babel/plugin-proposal-object-rest-spread" "^7.2.0"

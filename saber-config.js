@@ -2,6 +2,8 @@ module.exports = {
   siteConfig: {
     title: 'minemine',
     description: 'Write something for my love.',
+    url: 'https://minemine.cc/',
+    author: 'luyilin'
   },
   permalinks: {
     post: '/:year/:month/:day/:slug',
@@ -13,6 +15,9 @@ module.exports = {
       options: {
         trackId: 'UA-91928620-2'
       }
+    },
+    {
+      resolve: 'saber-generator-feed'
     }
   ],
   theme: "./src",
