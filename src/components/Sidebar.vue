@@ -184,7 +184,7 @@
         <!--<a href="http://www.jianshu.com/u/898cb5706881" target="_blank" class="item-a btn-hover btn-hover-slide" data-tip="简书">-->
           <!--<i class="iconfont icon-jian"></i>-->
         <!--</a>-->
-        <a href="/rss" class="item-a btn-hover btn-hover-slide" target="_blank" data-tip="RSS"
+        <a href="/feed.json" class="item-a btn-hover btn-hover-slide" target="_blank" data-tip="RSS"
            @mousedown="clickStatistics('RSS')">
           <i class="iconfont icon-rss"></i>
         </a>
