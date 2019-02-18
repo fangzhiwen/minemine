@@ -7,7 +7,7 @@ exports.chainWebpack = function(config, context) {
           events: true
         },
         AppCache: false,
-        excludes: ['favicon.ico']
+        excludes: ['favicon.ico', '**/../bundle-manifest/**']
       }
     ])
   }
