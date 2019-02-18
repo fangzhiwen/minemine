@@ -1,6 +1,7 @@
 ---
 title: 为凉风青叶做的简历生成工具
 subTitle: 如果可以我想一直做个初入职场的萌新...
+layout: page
 date: 2017-12-06
 tags:
   - code
@@ -12,9 +13,11 @@ tags:
 灵感来自 EGOIST 的 [docup](https://github.com/egojump/docup) 和 DIYgod 的 [resume](https://github.com/DIYgod/Resume)，感谢两位大佬，给大佬们递女装👗（这么看好像 couple hahaha ๑乛◡乛๑
 
 #### 项目地址
-Github: https://github.com/luyilin/Aoba <!--more--> <br>
+Github: https://github.com/luyilin/Aoba<br>
 Demo: https://luyilin.github.io/Aoba/<br>
 英文版简历: https://luyilin.github.io/Aoba/resume-en
+
+<!--more--> 
 
 #### 使用方法
 https://github.com/luyilin/Aoba#quick-start

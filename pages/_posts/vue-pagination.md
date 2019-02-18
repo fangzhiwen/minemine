@@ -1,5 +1,6 @@
 ---
 title: 使用 vue2.0 实现一个简洁的分页组件
+layout: page
 date: 2017-04-19
 tags:
   - code
@@ -14,9 +15,11 @@ tags:
   
 ### 前言
 
-> 1. 使用 vue-cli 初始化项目 <!--more-->
+> 1. 使用 vue-cli 初始化项目 
 > 2. 使用 vuex 管理数据
 > 3. node v6.9.2，npm v3.10.9 
+
+<!--more-->
 
 ### 分页原理
 

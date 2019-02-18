@@ -25,25 +25,28 @@
   }
 </script>
 
-<style lang="stylus" scoped>
-.footer
-  position: absolute
-  left: 0
-  bottom: 0
-  width: 100%
-  text-align: center
-  line-height: 1.6
-  padding: 7px 0
-  color: #616161
-  background-color: mistyrose
-  font-family: source-code-pro,Menlo,Monaco,Consolas,Courier New,monospace
-  a
-    color: #93a1a1
-    text-decoration: none
-    &:hover
-      text-decoration: underline
-  .love {
-    width: 20px;
-    vertical-align: sub;
-  }
+<style scoped>
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 1.6;
+  padding: 7px 0;
+  color: #616161;
+  background-color: #ffe4e1;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace;
+}
+.footer a {
+  color: #93a1a1;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+.footer .love {
+  width: 20px;
+  vertical-align: sub;
+}
 </style>

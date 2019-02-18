@@ -1,5 +1,6 @@
 ---
 title: 记在小本本上的 git 操作
+layout: page
 date: 2017-01-29
 tags:
   - code
@@ -15,7 +16,10 @@ or
 $ git config -l
 ```
 
-设置 git 配置信息 <!--more-->
+设置 git 配置信息 
+
+<!--more-->
+
  *  全局设置
 
  ```shell

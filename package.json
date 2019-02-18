@@ -1,17 +1,10 @@
 {
   "private": true,
   "scripts": {
-    "dev": "peco dev",
-    "build": "peco build"
-  },
-  "devDependencies": {
-    "peco": "^0.2.2",
-    "stylus": "^0.54.5",
-    "stylus-loader": "^3.0.2",
-    "vuex": "^3.0.1"
+    "dev": "saber",
+    "generate": "saber generate"
   },
   "dependencies": {
-    "css-loader": "^1.0.1",
     "disqusjs": "^1.0.9",
     "headroom.js": "^0.9.3",
     "less": "^3.8.1",
@@ -22,6 +15,9 @@
     "nprogress": "^0.2.0",
     "offline-plugin": "^5.0.6",
     "prismjs": "^1.15.0",
+    "saber": "^0.2.8",
+    "saber-generator-feed": "^0.0.2",
+    "saber-plugin-google-analytics": "^0.0.3",
     "typeface-fredericka-the-great": "^0.0.54",
     "typeface-indie-flower": "^0.0.54",
     "vue-cute-timeline": "^1.2.8"

@@ -8,12 +8,18 @@
 </template>
 
 <script>
-import Main from './main'
-import MainPage from '@theme/components/MainPage'
-import Disqus from '@theme/components/Disqus'
+import Main from './main.vue'
+import MainPage from '#theme/components/MainPage.vue'
+import Disqus from '#theme/components/Disqus.vue'
 
 export default {
   props: ['page'],
+
+  head() {
+    return {
+      title: `${this.page.attributes.title} - ${this.$siteConfig.title}`
+    }
+  },
 
   components: {
     Main,

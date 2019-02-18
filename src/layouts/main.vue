@@ -16,10 +16,10 @@
 
 <script>
 import zoom from 'medium-zoom'
-import Header from '@theme/components/Header'
-import Avatar from '@theme/components/Avatar'
-import Footer from '@theme/components/Footer'
-import Sidebar from '@theme/components/Sidebar'
+import Header from '#theme/components/Header.vue'
+import Avatar from '#theme/components/Avatar.vue'
+import Footer from '#theme/components/Footer.vue'
+import Sidebar from '#theme/components/Sidebar.vue'
 import { changeBg } from '../utils/index'
 
 export default{

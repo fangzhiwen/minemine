@@ -1,5 +1,6 @@
 ---
 title: 使用 service workers 提升网站体验
+layout: page
 date: 2018-12-07
 tags:
   - code
@@ -7,7 +8,9 @@ tags:
 
 在对着一个 repo static 目录下的 sw.js 文件研究十分钟后，终于把它和之前听说过的 service workers 对上了号…
 
-对于 service workers、PWA 这些概念我大概只是停留在"听说过"的层面，或者是应试水平（面试的时候能说一下这是个啥……），然而实践经验为0，现在有栗子了，那就动手试试吧！<!--more-->
+对于 service workers、PWA 这些概念我大概只是停留在"听说过"的层面，或者是应试水平（面试的时候能说一下这是个啥……），然而实践经验为0，现在有栗子了，那就动手试试吧！
+
+<!--more-->
 
 在网上关于 Service Workers 的文档有很多，推荐这两篇：
 

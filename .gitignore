@@ -1,3 +1,4 @@
 node_modules
-.peco/*
-yarn.lock
+.saber
+*.log
+.DS_Store
