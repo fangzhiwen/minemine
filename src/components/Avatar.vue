@@ -14,7 +14,7 @@ import { typing } from '../utils/index.js'
 export default{
   mounted() {
     let title = document.querySelector('.main-title')
-    typing(title, this.$themeConfig.title, 1000/15)
+    typing(title, this.$siteConfig.title, 1000/15)
   },
   methods: {
     refresh() {
