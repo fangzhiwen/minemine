@@ -5401,6 +5401,14 @@ saber-generator-feed@^0.0.2:
   resolved "https://registry.npmjs.org/saber-generator-feed/-/saber-generator-feed-0.0.2.tgz#eecda4187372ad8a0ac2ed1c77d887a1cd8a945e"
   integrity sha512-dBjgRx29MsJyPFdBSkI8qsFO3/ZO8eidnpBsh99iITdh3yihK5PY0skEHXhRfsuYaeit67uhiaj0h0gfM2Bgcg==
 
+saber-highlighter-prism@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.npmjs.org/saber-highlighter-prism/-/saber-highlighter-prism-0.1.2.tgz#22faea38ef0c54eef06963bdffed6a215213363d"
+  integrity sha512-l0djMIBaOS6AgQLOts/vWF0Bf02b6uijvjXkxJw7pdZ2NTfDHqd5g3I0Y4CqTmngbf5Eenprff2X1s0ib6s4uQ==
+  dependencies:
+    prismjs "^1.15.0"
+    saber-log "^0.1.1"
+
 saber-log@^0.1.1:
   version "0.1.1"
   resolved "https://registry.npmjs.org/saber-log/-/saber-log-0.1.1.tgz#a111d5ea45b1ee62f326e8f14bfeff3942e19d1d"

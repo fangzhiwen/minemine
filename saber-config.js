@@ -20,6 +20,9 @@ module.exports = {
       resolve: 'saber-generator-feed'
     }
   ],
+  markdown: {
+    highlighter: 'prism'
+  },
   theme: "./src",
   themeConfig: {
     website: "https://github.com/luyilin",
