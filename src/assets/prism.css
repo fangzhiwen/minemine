@@ -54,16 +54,13 @@ pre[class*="language-"] {
   overflow: auto;
 }
 
-:not(pre) > code[class*="language-"],
-pre[class*="language-"] {
-  background: #f5f2f0;
-}
-
 /* Inline code */
-:not(pre) > code[class*="language-"] {
-  padding: .1em;
+:not(pre) > code {
+  background: #f5f2f0;
+  padding: 3px 5px;
   border-radius: .3em;
   white-space: normal;
+  font-size: .85rem;
 }
 
 .token.comment,
@@ -250,15 +247,6 @@ pre[class*="language-"] {
 
 .markdown-section em {
   color: #7f8c8d;
-}
-
-.markdown-section code {
-  background-color: #f9f9f9;
-  border-radius: 3px;
-  /*white-space: pre;*/
-  font-family: source-code-pro,Menlo,Monaco,Consolas,Courier New,monospace;
-  line-height: 1.2;
-  padding: 0 5px;
 }
 
 .markdown-section pre {
