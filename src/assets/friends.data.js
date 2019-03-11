@@ -166,5 +166,12 @@ export default [
     "avatar": "https://gravatar.loli.net/avatar/5012e410377c7a93d14f7bf31aeeb7fd",
     "desc": "生活吐槽 & 学习记录",
     "email": "hi@iszy.xyz"
+  },
+  {
+    "author": "深蓝",
+    "url": "https://blog.inmind.ltd",
+    "avatar": "https://c.disquscdn.com/uploads/users/32971/5187/avatar92.jpg?1551936370",
+    "desc": "欢迎来到 inmind",
+    "email": ""
   }
 ]
