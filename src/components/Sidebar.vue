@@ -30,7 +30,7 @@
         height: 200px;
         min-height: 150px;
         margin: 0 auto;
-        background: url("https://wx1.sinaimg.cn/mw690/a2117cdbly1fnu2qzu0v1j20k00baaas.jpg") no-repeat top center;
+        background: url("https://wx1.sinaimg.cn/mw690/a2117cdbly1g1u2dwfqy1j20j60j6dhq.jpg") no-repeat top center;
         background-size: cover;
         border-radius: 6px;
       }

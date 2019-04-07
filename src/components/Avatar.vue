@@ -2,7 +2,7 @@
   <header id="header">
     <h1 @click="refresh" class="main-title pointer"></h1>
     <div class="intro animated bounceInUp">
-      <img class="avatar animated" src="https://wx2.sinaimg.cn/mw690/a2117cdbly1fnu37j8tfkj20cs0cst91.jpg">
+      <img class="avatar animated" src="https://wx1.sinaimg.cn/mw690/a2117cdbly1g1u2dwfqy1j20j60j6dhq.jpg">
       <h2>Write something for my love.</h2>
     </div>
   </header>
