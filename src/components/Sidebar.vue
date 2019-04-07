@@ -27,7 +27,7 @@
       text-align: center;
       .sweet {
         width: 90%;
-        height: 200px;
+        height: 260px;
         min-height: 150px;
         margin: 0 auto;
         background: url("https://wx1.sinaimg.cn/mw690/a2117cdbly1g1u2dwfqy1j20j60j6dhq.jpg") no-repeat top center;
