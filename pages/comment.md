@@ -1,10 +1,8 @@
 ---
 title: 留言板
-layout: comment
+layout: pageNoDate
 ---
 
-辛勤建设中～～
+这里是畅所欲言的自由之地，有什么话要对我说吗(｡•̀ᴗ-)✧
 
-博主最近很抑郁
-
-![难受](https://wx3.sinaimg.cn/mw690/69cabeb2gy1fp345c35t5j20vc0vcgta.jpg)
+p.s. 新换的猫咪头像来自[ins](https://www.instagram.com/pilltail/)，好萌呀
