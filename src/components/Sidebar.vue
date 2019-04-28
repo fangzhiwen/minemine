@@ -30,7 +30,7 @@
         height: 260px;
         min-height: 150px;
         margin: 0 auto;
-        background: url("https://wx1.sinaimg.cn/mw690/a2117cdbly1g1u2dwfqy1j20j60j6dhq.jpg") no-repeat top center;
+        background: url("https://i.loli.net/2019/04/28/5cc57985cee35.jpg") no-repeat center;
         background-size: cover;
         border-radius: 6px;
       }
@@ -114,7 +114,6 @@
     padding: 3px 10px;
     line-height: 26px;
     font-size: 12px;
-    font-weight: bold;
     color: #fff;
     background-color: #666;
     border-radius: 5px;
@@ -159,9 +158,9 @@
            data-tip="Weibo" @mousedown="clickStatistics('weibo')">
           <i class="iconfont icon-weibo"></i>
         </a>
-        <a href="https://segmentfault.com/u/yilind" target="_blank" class="item-a btn-hover btn-hover-slide"
-           data-tip="Segmentfault" @mousedown="clickStatistics('Segmentfault')">
-          <i class="iconfont icon-iconsf"></i>
+        <a href="https://www.douban.com/people/66042433/" target="_blank" class="item-a btn-hover btn-hover-slide"
+           data-tip="豆瓣" @mousedown="clickStatistics('豆瓣')">
+          <i class="iconfont icon-douban"></i>
         </a>
       </div>
       <div class="catch-item">
@@ -169,13 +168,17 @@
            data-tip="Instagram" @mousedown="clickStatistics('Instagram')">
           <i class="iconfont icon-instagram"></i>
         </a>
-        <a href="https://t.me/luyilin" target="_blank" class="item-a btn-hover btn-hover-slide"
-           data-tip="Telegram" @mousedown="clickStatistics('Telegram')">
-          <i class="iconfont icon-telegram"></i>
-        </a>
+        <!--<a href="https://t.me/luyilin" target="_blank" class="item-a btn-hover btn-hover-slide"-->
+           <!--data-tip="Telegram" @mousedown="clickStatistics('Telegram')">-->
+          <!--<i class="iconfont icon-telegram"></i>-->
+        <!--</a>-->
         <a :href="`https://twitter.com/${$themeConfig.twitter}`" target="_blank" class="item-a btn-hover btn-hover-slide"
            data-tip="Twitter" @mousedown="clickStatistics('Twitter')">
           <i class="iconfont icon-twitter"></i>
+        </a>
+        <a href="https://segmentfault.com/u/yilind" target="_blank" class="item-a btn-hover btn-hover-slide"
+           data-tip="Segmentfault" @mousedown="clickStatistics('Segmentfault')">
+          <i class="iconfont icon-iconsf"></i>
         </a>
         <!--<a href="https://juejin.im/user/58808d3f570c350062ad010d" target="_blank" class="item-a btn-hover btn-hover-slide"-->
            <!--data-tip="掘金" @mousedown="clickStatistics('掘金')">-->
