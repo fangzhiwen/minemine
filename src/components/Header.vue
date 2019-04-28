@@ -73,7 +73,7 @@
             <svg class="icon" aria-hidden="true">
               <use xlink:href="#icon-girl"></use>
             </svg>
-            <span>关于我</span>
+            <span>关于</span>
           </div>
         </saber-link>
       </div>

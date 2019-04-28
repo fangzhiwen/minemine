@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <Main>
-      <MainPage slot="content" :page="page" :showDate="false"/>
+      <MainPage slot="content" :page="page" :showDate="false">
+        <slot name="default" slot="content" />
+      </MainPage>
       <Disqus slot="comment"/>
     </Main>
   </div>

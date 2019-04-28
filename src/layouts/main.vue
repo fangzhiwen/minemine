@@ -25,7 +25,6 @@ import { changeBg } from '../utils/index'
 export default{
   data() {
     return {
-      essay: [],
       essayWidth: '70%'
     }
   },
